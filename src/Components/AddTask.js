@@ -15,7 +15,7 @@ const AddTask = () => {
             headers: {
                 "Content-Type": "application/json"
             },
-            referrerPolicy: "unsafe_url",
+            // referrerPolicy: "unsafe_url",
             body: JSON.stringify({ title: task.title, type: task.type, dueDate: task.dueDate, description: task.description })
         });
         settask({
