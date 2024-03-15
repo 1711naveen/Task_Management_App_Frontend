@@ -10,7 +10,6 @@ const Task = () => {
     // const respone = await fetch('http://13.233.113.50:8080/task', {
     const respone = await fetch('http://13.233.113.50:8080/task', {
       method: 'GET',
-      mode: 'no-cors',
     });
     const json = await respone.json();
     setTask(json)
@@ -21,7 +20,6 @@ const Task = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      mode: 'no-cors',
     });
 
     const json = await response.json();
