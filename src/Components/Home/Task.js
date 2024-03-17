@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { MdOutlineDelete } from "react-icons/md";
 import { FiEdit } from "react-icons/fi";
+import PDFDownloader from '../PDFDownloader';
 
 const Task = () => {
 
@@ -175,6 +176,7 @@ const Task = () => {
           </div>
         </div>
       </div>
+      <PDFDownloader/>
     </div>
   )
 }
