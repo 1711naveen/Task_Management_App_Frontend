@@ -1,6 +1,9 @@
 # Backend of the project is available on:
 Open [https://github.com/1711naveen/Task_Management_App.git](https://github.com/1711naveen/Task_Management_App.git)
 
+# Live Project On:
+Open [https://yourtaskmanagement.netlify.app/](https://yourtaskmanagement.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
