@@ -15,7 +15,7 @@ const Task = () => {
 
   const getTask = async () => {
     //API Call
-    const respone = await fetch('http://3.110.134.173:8080/task', {
+    const respone = await fetch('http://13.232.154.208:8080/task', {
       method: 'GET',
     });
     const json = await respone.json();
@@ -24,7 +24,7 @@ const Task = () => {
   }
 
   const deleteTask = async (id) => {
-    const response = await fetch(`http://3.110.134.173:8080/task/${id}`, {
+    const response = await fetch(`http://13.232.154.208:8080/task/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -39,7 +39,7 @@ const Task = () => {
   }
 
   const editingTask = async (id, title, description, type, dueDate) => {
-    const response = await fetch(`http://3.110.134.173:8080/task/${id}`, {
+    const response = await fetch(`http://13.232.154.208:8080/task/${id}`, {
       method: 'PUT',
       headers: {
         "Content-Type": 'application/json',

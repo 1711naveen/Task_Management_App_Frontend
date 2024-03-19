@@ -10,8 +10,7 @@ const AddTask = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // const response = await fetch('https://13.201.99.171:8443/task', {
-        const response = await fetch('http://3.110.134.173:8080/task', {
+        const response = await fetch('http://13.232.154.208:8080/task', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
