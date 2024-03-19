@@ -20,7 +20,7 @@ const Navbar = () => {
                                 <Link className="nav-link active" aria-current="page" to="/add">Add Task</Link>
                             </li>
                             <li className="nav-item mt-3">
-                                <PDFDownloader/>
+                                <PDFDownloader />
                             </li>
                             <li className="nav-item mt-2">
                                 <Link className="nav-link" to="https://github.com/1711naveen/Task_Management_App_Frontend" target='_blank'>
