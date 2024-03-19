@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import DatePicker from "react-datepicker";
+// import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useNavigate } from 'react-router-dom';
 
 const AddTask = () => {
-    const [startDate, setStartDate] = useState(new Date());
+    // const [startDate, setStartDate] = useState(new Date());
     const [task, settask] = useState({ title: "", type: "", dueDate: "", description: "" });
     const navigate = useNavigate();
 

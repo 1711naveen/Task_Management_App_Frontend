@@ -3,16 +3,7 @@ import React from 'react';
 const PDFDownloader = () => {
   const downloadPDF = async () => {
     try {
-      const response = await fetch('http://13.232.154.208:8080/pdf', {
-        method: "GET", // *GET, POST, PUT, DELETE, etc.
-        mode: "no-cors", // no-cors, *cors, same-origin
-        // cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-        // credentials: "same-origin", // include, *same-origin, omit
-        // headers: {
-        //   "Content-Type": "application/pdf",
-        //   "Content-Disposition": "attachment;filename=tasks.pdf"
-        // },
-      });
+      const response = await fetch('http://13.232.154.208:8080/pdf');
       const blob = await response.blob();
       const url = window.URL.createObjectURL(new Blob([blob]));
       const link = document.createElement('a');
